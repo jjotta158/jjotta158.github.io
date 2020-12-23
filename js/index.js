@@ -146,7 +146,7 @@ const activateContactsAnimation = () => {
 
 const scrollFunction = () => {
     let body = document.getElementsByTagName('main')[0];
-    console.log(body.scrollTop);
+    
     if (body.scrollTop >= 650.2000122070312 && body.scrollTop <= 810.2000122070312) {
         activatePhotosAnimate()
     }
